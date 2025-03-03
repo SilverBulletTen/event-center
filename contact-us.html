@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events-Contact-Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<nav>
+    <ul>
+        <a href="index.html"><li>Home</a></li>
+        <a href="events.html"><li>Events</a></li>
+        <a href="menu.html"><li>Menu</a></li>
+        <a href="location.html"><li>Location</a></li>
+        <a href="contact-us.html"><li>Contact Us</a></li>
+    </ul>
+</nav>
+<body>
+    <h1>Contact Us</h1>
+    <br>
+    <br>
+<div class="contact">
+    <fieldset>
+        <legend>Contact Us Form</legend>
+    <form action="/submit" method="post">
+        <br>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required placeholder="Enter Name Here">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required placeholder="Enter Email Here">
+        <br>
+        <br>
+        <label for="message">Message</label>
+        <br>
+        <br>
+        <textarea name="message" id="message" rows="5" cols="30" required placeholder="Enter Message Here"></textarea>
+    </fieldset>
+    <input class="submit" type="submit" value="Submit">
+    </form>  
+</div>
+<footer>
+    <p>Raymond James Stadium 2025 &copy;</p>
+</footer>   
+</body>
+</html>

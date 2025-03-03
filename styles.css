@@ -1,0 +1,98 @@
+nav {
+    background-color: black;
+    list-style-type: none;
+    text-align: center; 
+    padding: 0;
+    margin: 0;
+}
+  
+nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: grey;
+}
+
+h1 {
+    text-align: center;
+    color: darkred;
+    font-size: 80px;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 90%;
+    border-radius: 10px;
+}    
+
+div p {
+    display: block;
+    margin: auto;
+    background-color: darkgray;
+    color: black;
+    font-size: 20px;
+    font-family: cursive;
+    width: 90%;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: maroon;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+table, tr, td {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 75%;
+    text-align: center;
+    margin: auto;    
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+}
+
+.location {
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    display: block;
+    border: 2px solid black;
+    text-align: center;
+    padding: 4px;
+    border-spacing: 2px;
+    margin: auto;
+    background-color: darkgray;
+    color: black;
+    font-family: cursive;
+}
+
+article img {
+    width: 400px;
+    height: 250px;
+}
